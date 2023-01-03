@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   
+}
+
+.form {
+    position: relative;
+    inset: 2px;
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+    z-index: 10;
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form {
+    box-shadow: 0px 0px 40px rgba(40, 50, 100, 2);
+}
+.form h3 {
+    color: rgb(4, 11, 13);
+    font-weight: 2000;
+    text-align: center;
+}
+
+.form h2 {
+    color: rgb(4, 11, 13);
+    font-weight: 2000;
+    text-align: center;
+}
+
+
+.inputbox {
+    position: relative;
+    width: 300px;
+    margin-top: 40px;
+}
+
+.inputbox input {
+    position: relative;
+    width: 100%;
+    padding: 10px 10px 10px;
+    background: transparent;
+    border: 1px solid #dddfe2;
+    border-radius: 10px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    letter-spacing: .1em;
+    z-index: 10;
+}
+
+.inputbox span {
+    position: absolute;
+    left: 0;
+    font-weight: 1000;
+    padding: 0px 10px 0px;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .05s;
+}
+
+
+
+
+
+
+.link {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link a {
+    margin: 10px;
+    font-size: 1em;
+    padding: 10px 0px 20px;
+    color: rgb(50, 62, 71);
+
+}
+
+.link a:hover {
+    color: rgb(0, 0, 0);
+    
+}
+
+button[type="submit"] {
+    border: none;
+    outline: none;
+    color: aliceblue;
+    align-items: center;
+    background: rgb(39, 111, 206);
+    padding: 11px 25px;
+    width: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+
+button:hover {
+    box-shadow: 0px 0px 10px rgba(40, 50, 100, 2);
+}
+
+input[type="submit"]:active {
+    opacity: 5;
+}
+/* employeepanel */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    background-color: rgb(213, 199, 199);
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  /* Style the image inside the centered container, if needed */
+  .centered img {
+    width: 150px;
+    border-radius: 50%;
+  }
+  
